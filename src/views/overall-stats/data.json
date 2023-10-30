@@ -1,0 +1,615 @@
+{
+    "success": true,
+    "data": [
+        {
+            "model": "integration.campaigns",
+            "pk": "f55d9095-32b4-42d9-b828-0785795e15bb",
+            "fields": {
+                "user_id": "524dfd6b-8c99-437e-8541-6ac67f0ed7a7",
+                "shop": "bombayclub.myshopify.com",
+                "app": "superleadz",
+                "campaign_type": "Broadcast Campaign",
+                "campaign_name": "50 % discount",
+                "smart_send": true,
+                "domain": "SMTP",
+                "campaign_details": {
+                    "send_to": "subscribers",
+                    "dont_send": "leads",
+                    "schedule": false,
+                    "completed": true
+                },
+                "subject": "Discount",
+                "preview_text": "Hellooo",
+                "template": "media/index_YfCXLPe.html",
+                "reply_to_address": true,
+                "event": "discount"
+            }
+        },
+        {
+            "model": "integration.campaigns",
+            "pk": "c6ab1031-5907-4620-bab8-be00562d3c80",
+            "fields": {
+                "user_id": "524dfd6b-8c99-437e-8541-6ac67f0ed7a7",
+                "shop": "bombayclub.myshopify.com",
+                "app": "superleadz",
+                "campaign_type": "Broadcast Campaign",
+                "campaign_name": "Most orders",
+                "smart_send": true,
+                "domain": "SMTP",
+                "campaign_details": {
+                    "send_to": "59e88d2f-ecd5-476b-a757-54f584fe5337",
+                    "dont_send": "leads",
+                    "schedule": true,
+                    "schedule_time": "11:03:00"
+                },
+                "subject": "Discount",
+                "preview_text": "Hellooo",
+                "template": "media/index_SrAG9cB.html",
+                "reply_to_address": true,
+                "event": "discount"
+            }
+        },
+        {
+            "model": "integration.campaigns",
+            "pk": "d1b9cf27-7936-4750-a759-1339720d6142",
+            "fields": {
+                "user_id": "524dfd6b-8c99-437e-8541-6ac67f0ed7a7",
+                "shop": "bombayclub.myshopify.com",
+                "app": "superleadz",
+                "campaign_type": "Broadcast Campaign",
+                "campaign_name": "qwertyuiop",
+                "smart_send": true,
+                "domain": "SMTP",
+                "campaign_details": {
+                    "send_to": "59e88d2f-ecd5-476b-a757-54f584fe5337",
+                    "dont_send": "leads",
+                    "schedule": true,
+                    "schedule_time": "11:06:00",
+                    "completed": true
+                },
+                "subject": "Discount",
+                "preview_text": "Hellooo",
+                "template": "media/index_4RJWUK4.html",
+                "reply_to_address": true,
+                "event": "discount"
+            }
+        },
+        {
+            "model": "integration.campaigns",
+            "pk": "678f546c-3acf-41bd-a71c-9950d69e8b4e",
+            "fields": {
+                "user_id": "524dfd6b-8c99-437e-8541-6ac67f0ed7a7",
+                "shop": "bombayclub.myshopify.com",
+                "app": "superleadz",
+                "campaign_type": "Broadcast Campaign",
+                "campaign_name": "qwertyuiop",
+                "smart_send": true,
+                "domain": "SMTP",
+                "campaign_details": {
+                    "send_to": "59e88d2f-ecd5-476b-a757-54f584fe5337",
+                    "dont_send": "59e88d2f-ecd5-476b-a757-54f584fe5337",
+                    "schedule": true,
+                    "schedule_time": "19:26:00",
+                    "completed": true
+                },
+                "subject": "Discount",
+                "preview_text": "Hellooo",
+                "template": "media/index_12EOJCb.html",
+                "reply_to_address": true,
+                "event": "discount"
+            }
+        },
+        {
+            "model": "integration.campaigns",
+            "pk": "e4c17201-0945-4dcf-80cd-576ec21f0682",
+            "fields": {
+                "user_id": "524dfd6b-8c99-437e-8541-6ac67f0ed7a7",
+                "shop": "bombayclub.myshopify.com",
+                "app": "superleadz",
+                "campaign_type": "Broadcast Campaign",
+                "campaign_name": "qwertyuiop",
+                "smart_send": true,
+                "domain": "SMTP",
+                "campaign_details": {
+                    "send_to": "59e88d2f-ecd5-476b-a757-54f584fe5337",
+                    "dont_send_to": "59e88d2f-ecd5-476b-a757-54f584fe5337",
+                    "schedule": true,
+                    "schedule_time": "19:29:00"
+                },
+                "subject": "Discount",
+                "preview_text": "Hellooo",
+                "template": "media/index_9YVlmuS.html",
+                "reply_to_address": true,
+                "event": "discount"
+            }
+        },
+        {
+            "model": "integration.campaigns",
+            "pk": "4a823b7c-ad5a-4fda-8321-ef1eb83f2448",
+            "fields": {
+                "user_id": "524dfd6b-8c99-437e-8541-6ac67f0ed7a7",
+                "shop": "bombayclub.myshopify.com",
+                "app": "superleadz",
+                "campaign_type": "Broadcast Campaign",
+                "campaign_name": "qwertyuiop",
+                "smart_send": true,
+                "domain": "SMTP",
+                "campaign_details": {
+                    "send_to": "59e88d2f-ecd5-476b-a757-54f584fe5337",
+                    "dont_send_to": "59e88d2f-ecd5-476b-a757-54f584fe5337",
+                    "schedule": true,
+                    "schedule_time": "19:31:00"
+                },
+                "subject": "Discount",
+                "preview_text": "Hellooo",
+                "template": "media/index_lzOymaK.html",
+                "reply_to_address": true,
+                "event": "discount"
+            }
+        },
+        {
+            "model": "integration.campaigns",
+            "pk": "4f115634-71cf-43ff-8479-90dd2aaec16e",
+            "fields": {
+                "user_id": "524dfd6b-8c99-437e-8541-6ac67f0ed7a7",
+                "shop": "bombayclub.myshopify.com",
+                "app": "superleadz",
+                "campaign_type": "Broadcast Campaign",
+                "campaign_name": "qwertyuiop",
+                "smart_send": true,
+                "domain": "SMTP",
+                "campaign_details": {
+                    "send_to": "59e88d2f-ecd5-476b-a757-54f584fe5337",
+                    "schedule": true,
+                    "schedule_time": "09:41:00"
+                },
+                "subject": "Discount",
+                "preview_text": "Hellooo",
+                "template": "media/index_Y6oHw9j.html",
+                "reply_to_address": true,
+                "event": "discount"
+            }
+        },
+        {
+            "model": "integration.campaigns",
+            "pk": "6bbafb80-9696-4bb1-a65d-3268ed59a5d1",
+            "fields": {
+                "user_id": "524dfd6b-8c99-437e-8541-6ac67f0ed7a7",
+                "shop": "bombayclub.myshopify.com",
+                "app": "superleadz",
+                "campaign_type": "Broadcast Campaign",
+                "campaign_name": "qwertyuiop",
+                "smart_send": true,
+                "domain": "SMTP",
+                "campaign_details": {
+                    "send_to": "59e88d2f-ecd5-476b-a757-54f584fe5337",
+                    "schedule": true,
+                    "schedule_time": "09:47:00"
+                },
+                "subject": "Discount",
+                "preview_text": "Hellooo",
+                "template": "media/index_Ds6CefA.html",
+                "reply_to_address": true,
+                "event": "discount"
+            }
+        },
+        {
+            "model": "integration.campaigns",
+            "pk": "d2bada9c-5b3b-4240-ae4d-3e1e84811daf",
+            "fields": {
+                "user_id": "524dfd6b-8c99-437e-8541-6ac67f0ed7a7",
+                "shop": "bombayclub.myshopify.com",
+                "app": "superleadz",
+                "campaign_type": "Broadcast Campaign",
+                "campaign_name": "qwertyuiop",
+                "smart_send": true,
+                "domain": "SMTP",
+                "campaign_details": {
+                    "send_to": "59e88d2f-ecd5-476b-a757-54f584fe5337",
+                    "schedule": true,
+                    "schedule_time": "09:50:00"
+                },
+                "subject": "Discount",
+                "preview_text": "Hellooo",
+                "template": "media/index_OzlUncH.html",
+                "reply_to_address": true,
+                "event": "discount"
+            }
+        },
+        {
+            "model": "integration.campaigns",
+            "pk": "6ea03397-85e0-419e-8c75-aa148a4f902b",
+            "fields": {
+                "user_id": "524dfd6b-8c99-437e-8541-6ac67f0ed7a7",
+                "shop": "bombayclub.myshopify.com",
+                "app": "superleadz",
+                "campaign_type": "Broadcast Campaign",
+                "campaign_name": "qwertyuiop",
+                "smart_send": true,
+                "domain": "SMTP",
+                "campaign_details": {
+                    "send_to": "59e88d2f-ecd5-476b-a757-54f584fe5337",
+                    "schedule": true,
+                    "schedule_time": "09:54:00",
+                    "completed": true
+                },
+                "subject": "Discount",
+                "preview_text": "Hellooo",
+                "template": "media/index_eNTSLbW.html",
+                "reply_to_address": true,
+                "event": "discount"
+            }
+        },
+        {
+            "model": "integration.campaigns",
+            "pk": "0eaf37e5-6141-4c6f-bd36-b503879e9058",
+            "fields": {
+                "user_id": "524dfd6b-8c99-437e-8541-6ac67f0ed7a7",
+                "shop": "bombayclub.myshopify.com",
+                "app": "superleadz",
+                "campaign_type": "Broadcast Campaign",
+                "campaign_name": "qwertyuiop",
+                "smart_send": true,
+                "domain": "SMTP",
+                "campaign_details": {
+                    "send_to": "59e88d2f-ecd5-476b-a757-54f584fe5337",
+                    "schedule": true,
+                    "schedule_time": "09:7:00"
+                },
+                "subject": "Discount",
+                "preview_text": "Hellooo",
+                "template": "media/index_dImPxIL.html",
+                "reply_to_address": true,
+                "event": "discount"
+            }
+        },
+        {
+            "model": "integration.campaigns",
+            "pk": "feb3b21f-d57a-477c-b703-e65f329b1743",
+            "fields": {
+                "user_id": "524dfd6b-8c99-437e-8541-6ac67f0ed7a7",
+                "shop": "bombayclub.myshopify.com",
+                "app": "superleadz",
+                "campaign_type": "Broadcast Campaign",
+                "campaign_name": "qwertyuiop",
+                "smart_send": true,
+                "domain": "SMTP",
+                "campaign_details": {
+                    "send_to": "59e88d2f-ecd5-476b-a757-54f584fe5337",
+                    "schedule": true,
+                    "schedule_time": "09:57:00",
+                    "completed": true
+                },
+                "subject": "Discount",
+                "preview_text": "Hellooo",
+                "template": "media/index_0u252OG.html",
+                "reply_to_address": true,
+                "event": "discount"
+            }
+        },
+        {
+            "model": "integration.campaigns",
+            "pk": "637de60b-ac20-440c-a490-f55fee2c767f",
+            "fields": {
+                "user_id": "524dfd6b-8c99-437e-8541-6ac67f0ed7a7",
+                "shop": "bombayclub.myshopify.com",
+                "app": "superleadz",
+                "campaign_type": "Broadcast Campaign",
+                "campaign_name": "qwertyuiop",
+                "smart_send": true,
+                "domain": "SMTP",
+                "campaign_details": {
+                    "send_to": "59e88d2f-ecd5-476b-a757-54f584fe5337",
+                    "schedule": true,
+                    "schedule_time": "09:59:00",
+                    "completed": true
+                },
+                "subject": "Discount",
+                "preview_text": "Hellooo",
+                "template": "media/index_abFCjPB.html",
+                "reply_to_address": true,
+                "event": "discount"
+            }
+        },
+        {
+            "model": "integration.campaigns",
+            "pk": "ab8673a3-0c33-4f0b-96be-2c3fd8164975",
+            "fields": {
+                "user_id": "524dfd6b-8c99-437e-8541-6ac67f0ed7a7",
+                "shop": "bombayclub.myshopify.com",
+                "app": "superleadz",
+                "campaign_type": "Broadcast Campaign",
+                "campaign_name": "qwertyuiop",
+                "smart_send": true,
+                "domain": "SMTP",
+                "campaign_details": {
+                    "send_to": "59e88d2f-ecd5-476b-a757-54f584fe5337",
+                    "schedule": true,
+                    "schedule_time": "10:02:00"
+                },
+                "subject": "Discount",
+                "preview_text": "Hellooo",
+                "template": "media/index_W2HUrkZ.html",
+                "reply_to_address": true,
+                "event": "discount"
+            }
+        },
+        {
+            "model": "integration.campaigns",
+            "pk": "300983dc-471e-4808-bc6a-67e128394791",
+            "fields": {
+                "user_id": "524dfd6b-8c99-437e-8541-6ac67f0ed7a7",
+                "shop": "bombayclub.myshopify.com",
+                "app": "superleadz",
+                "campaign_type": "Broadcast Campaign",
+                "campaign_name": "qwertyuiop",
+                "smart_send": true,
+                "domain": "SMTP",
+                "campaign_details": {
+                    "send_to": "59e88d2f-ecd5-476b-a757-54f584fe5337",
+                    "schedule": true,
+                    "schedule_time": "10:06:00"
+                },
+                "subject": "Discount",
+                "preview_text": "Hellooo",
+                "template": "media/index_yDunCK2.html",
+                "reply_to_address": true,
+                "event": "discount"
+            }
+        },
+        {
+            "model": "integration.campaigns",
+            "pk": "c5f54ee9-c986-412e-ae9c-5ec7d5f44bb7",
+            "fields": {
+                "user_id": "524dfd6b-8c99-437e-8541-6ac67f0ed7a7",
+                "shop": "bombayclub.myshopify.com",
+                "app": "superleadz",
+                "campaign_type": "Broadcast Campaign",
+                "campaign_name": "qwertyuiop",
+                "smart_send": true,
+                "domain": "SMTP",
+                "campaign_details": {
+                    "send_to": "59e88d2f-ecd5-476b-a757-54f584fe5337",
+                    "schedule": true,
+                    "schedule_time": "10:09:00"
+                },
+                "subject": "Discount",
+                "preview_text": "Hellooo",
+                "template": "media/index_e2IiSgI.html",
+                "reply_to_address": true,
+                "event": "discount"
+            }
+        },
+        {
+            "model": "integration.campaigns",
+            "pk": "ae62439b-6918-43d6-87cc-072e2760e297",
+            "fields": {
+                "user_id": "524dfd6b-8c99-437e-8541-6ac67f0ed7a7",
+                "shop": "bombayclub.myshopify.com",
+                "app": "superleadz",
+                "campaign_type": "Broadcast Campaign",
+                "campaign_name": "qwertyuiop",
+                "smart_send": true,
+                "domain": "SMTP",
+                "campaign_details": {
+                    "send_to": "59e88d2f-ecd5-476b-a757-54f584fe5337",
+                    "schedule": true,
+                    "schedule_time": "10:11:00"
+                },
+                "subject": "Discount",
+                "preview_text": "Hellooo",
+                "template": "media/index_QJJK9Hn.html",
+                "reply_to_address": true,
+                "event": "discount"
+            }
+        },
+        {
+            "model": "integration.campaigns",
+            "pk": "34c5c303-35fb-43ec-9fd2-a89ab74a37c6",
+            "fields": {
+                "user_id": "524dfd6b-8c99-437e-8541-6ac67f0ed7a7",
+                "shop": "bombayclub.myshopify.com",
+                "app": "superleadz",
+                "campaign_type": "Broadcast Campaign",
+                "campaign_name": "qwertyuiop",
+                "smart_send": true,
+                "domain": "SMTP",
+                "campaign_details": {
+                    "send_to": "59e88d2f-ecd5-476b-a757-54f584fe5337",
+                    "schedule": true,
+                    "schedule_time": "10:14:00"
+                },
+                "subject": "Discount",
+                "preview_text": "Hellooo",
+                "template": "media/index_J5kAx4k.html",
+                "reply_to_address": true,
+                "event": "discount"
+            }
+        },
+        {
+            "model": "integration.campaigns",
+            "pk": "2db7f859-a229-47b1-b9ac-444c5ad38e5d",
+            "fields": {
+                "user_id": "524dfd6b-8c99-437e-8541-6ac67f0ed7a7",
+                "shop": "bombayclub.myshopify.com",
+                "app": "superleadz",
+                "campaign_type": "Broadcast Campaign",
+                "campaign_name": "qwertyuiop",
+                "smart_send": true,
+                "domain": "SMTP",
+                "campaign_details": {
+                    "send_to": "59e88d2f-ecd5-476b-a757-54f584fe5337",
+                    "schedule": true,
+                    "schedule_time": "10:19:00"
+                },
+                "subject": "Discount",
+                "preview_text": "Hellooo",
+                "template": "media/index_0sWVceD.html",
+                "reply_to_address": true,
+                "event": "discount"
+            }
+        },
+        {
+            "model": "integration.campaigns",
+            "pk": "8f72a31a-88b0-4687-803b-0d818e822824",
+            "fields": {
+                "user_id": "524dfd6b-8c99-437e-8541-6ac67f0ed7a7",
+                "shop": "bombayclub.myshopify.com",
+                "app": "superleadz",
+                "campaign_type": "Broadcast Campaign",
+                "campaign_name": "qwertyuiop",
+                "smart_send": true,
+                "domain": "SMTP",
+                "campaign_details": {
+                    "send_to": "59e88d2f-ecd5-476b-a757-54f584fe5337",
+                    "schedule": true,
+                    "schedule_time": "10:25:00"
+                },
+                "subject": "Discount",
+                "preview_text": "Hellooo",
+                "template": "media/index_qFeMM4l.html",
+                "reply_to_address": true,
+                "event": "discount"
+            }
+        },
+        {
+            "model": "integration.campaigns",
+            "pk": "fdf79043-5b8b-4e8c-b05a-1f4a4f9238c5",
+            "fields": {
+                "user_id": "524dfd6b-8c99-437e-8541-6ac67f0ed7a7",
+                "shop": "bombayclub.myshopify.com",
+                "app": "superleadz",
+                "campaign_type": "Broadcast Campaign",
+                "campaign_name": "qwertyuiop",
+                "smart_send": true,
+                "domain": "SMTP",
+                "campaign_details": {
+                    "send_to": "59e88d2f-ecd5-476b-a757-54f584fe5337",
+                    "schedule": true,
+                    "schedule_time": "10:26:00"
+                },
+                "subject": "Discount",
+                "preview_text": "Hellooo",
+                "template": "media/index_PIIKGUp.html",
+                "reply_to_address": true,
+                "event": "discount"
+            }
+        },
+        {
+            "model": "integration.campaigns",
+            "pk": "c6e48423-5715-4b97-a259-bb5b8ea37179",
+            "fields": {
+                "user_id": "524dfd6b-8c99-437e-8541-6ac67f0ed7a7",
+                "shop": "bombayclub.myshopify.com",
+                "app": "superleadz",
+                "campaign_type": "Broadcast Campaign",
+                "campaign_name": "qwertyuiop",
+                "smart_send": true,
+                "domain": "SMTP",
+                "campaign_details": {
+                    "send_to": "59e88d2f-ecd5-476b-a757-54f584fe5337",
+                    "schedule": true,
+                    "schedule_time": "10:31:00"
+                },
+                "subject": "Discount",
+                "preview_text": "Hellooo",
+                "template": "media/index_4eHUdid.html",
+                "reply_to_address": true,
+                "event": "discount"
+            }
+        },
+        {
+            "model": "integration.campaigns",
+            "pk": "3043a469-e4d2-4f71-b3db-d6670614cea2",
+            "fields": {
+                "user_id": "524dfd6b-8c99-437e-8541-6ac67f0ed7a7",
+                "shop": "bombayclub.myshopify.com",
+                "app": "superleadz",
+                "campaign_type": "Broadcast Campaign",
+                "campaign_name": "qwertyuiop",
+                "smart_send": true,
+                "domain": "SMTP",
+                "campaign_details": {
+                    "send_to": "59e88d2f-ecd5-476b-a757-54f584fe5337",
+                    "schedule": true,
+                    "schedule_time": "10:41:00"
+                },
+                "subject": "Discount",
+                "preview_text": "Hellooo",
+                "template": "media/index_nd6EbnP.html",
+                "reply_to_address": true,
+                "event": "discount"
+            }
+        },
+        {
+            "model": "integration.campaigns",
+            "pk": "46670daf-f1d7-4ed4-8096-464c656149f6",
+            "fields": {
+                "user_id": "524dfd6b-8c99-437e-8541-6ac67f0ed7a7",
+                "shop": "bombayclub.myshopify.com",
+                "app": "superleadz",
+                "campaign_type": "Broadcast Campaign",
+                "campaign_name": "qwertyuiop",
+                "smart_send": true,
+                "domain": "SMTP",
+                "campaign_details": {
+                    "send_to": "59e88d2f-ecd5-476b-a757-54f584fe5337",
+                    "schedule": true,
+                    "schedule_time": "10:45:00"
+                },
+                "subject": "Discount",
+                "preview_text": "Hellooo",
+                "template": "media/index_TiVjRF5.html",
+                "reply_to_address": true,
+                "event": "discount"
+            }
+        },
+        {
+            "model": "integration.campaigns",
+            "pk": "d9fcf1c1-596c-47f6-8b75-f031d24a1086",
+            "fields": {
+                "user_id": "524dfd6b-8c99-437e-8541-6ac67f0ed7a7",
+                "shop": "bombayclub.myshopify.com",
+                "app": "superleadz",
+                "campaign_type": "Broadcast Campaign",
+                "campaign_name": "qwertyuiop",
+                "smart_send": true,
+                "domain": "SMTP",
+                "campaign_details": {
+                    "send_to": "59e88d2f-ecd5-476b-a757-54f584fe5337",
+                    "schedule": true,
+                    "schedule_time": "10:46:00"
+                },
+                "subject": "Discount",
+                "preview_text": "Hellooo",
+                "template": "media/index_iln8Hde.html",
+                "reply_to_address": true,
+                "event": "discount"
+            }
+        },
+        {
+            "model": "integration.campaigns",
+            "pk": "8506c420-9887-4b52-aad3-4ee0b8fa82a2",
+            "fields": {
+                "user_id": "524dfd6b-8c99-437e-8541-6ac67f0ed7a7",
+                "shop": "bombayclub.myshopify.com",
+                "app": "superleadz",
+                "campaign_type": "Broadcast Campaign",
+                "campaign_name": "qwertyuiop",
+                "smart_send": true,
+                "domain": "SMTP",
+                "campaign_details": {
+                    "send_to": "59e88d2f-ecd5-476b-a757-54f584fe5337",
+                    "schedule": true,
+                    "schedule_time": "10:50:00",
+                    "completed": true
+                },
+                "subject": "Discount",
+                "preview_text": "Hellooo",
+                "template": "media/index_eB1N1Ch.html",
+                "reply_to_address": true,
+                "event": "discount"
+            }
+        }
+    ]
+}

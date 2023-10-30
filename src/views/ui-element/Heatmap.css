@@ -1,0 +1,12 @@
+.react-calendar-heatmap text {
+    font-size: 5px;
+    fill: #5e5873;
+}
+
+.react-calendar-heatmap .color-empty {
+    fill: #95ddcf;
+}
+
+.react-calendar-heatmap .color-filled {
+    fill: #09aad3;
+}

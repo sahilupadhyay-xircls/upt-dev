@@ -1,0 +1,12 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.reward-section-card-1{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.reward-section-card-1-link a{
+    color: rgb(9, 205, 195);
+}

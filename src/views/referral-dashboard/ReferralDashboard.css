@@ -1,0 +1,45 @@
+@media (min-width: 1200px) {
+    .col-xl-5 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+
+.chart-container {
+    width: 20vh;
+    height: 20vh;
+}
+
+.chart-container-1 {
+    width: 35vh;
+    height: 20vh;
+}
+
+@media (max-width: 575px) {
+
+    /* Your styles for xs devices go here */
+    /* For example, you can adjust font sizes, margins, padding, etc. */
+    .line-chart {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left {
+        width: max-content;
+    }
+
+    .right {
+        width: max-content;
+        display: flex;
+        align-items: center;
+    }
+
+    .pie-chart {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .chart-container {
+        margin-left: auto;
+    }
+}

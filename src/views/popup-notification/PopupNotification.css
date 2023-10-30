@@ -1,0 +1,48 @@
+.popupCard {
+    width: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s linear;
+}
+
+.popupCardUp {
+    top: -700px;
+}
+
+.popupCardDown {
+    top: 0px;
+}
+
+.scrollDiv {
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.scrollDiv::-webkit-scrollbar {
+    width: 5px;
+    height: 20px;
+}
+
+.scrollDiv::-webkit-scrollbar-track {
+    background-color: rgb(243, 237, 237);
+    border-radius: 10px;
+}
+
+.scrollDiv::-webkit-scrollbar-thumb {
+    background: aqua;
+    border-radius: 10px;
+}
+
+.scrollDiv::-webkit-scrollbar-thumb:hover {
+    background: rgb(156, 247, 247);
+}
+
+.scrollDiv ul>li::marker {
+    color: aqua;
+    font-size: 25px;
+}
+
+.scrollDiv ol>li::marker {
+    color: aqua;
+    margin-right: 10px;
+}

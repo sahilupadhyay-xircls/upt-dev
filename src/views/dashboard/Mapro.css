@@ -1,0 +1,238 @@
+.grid-item {
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.section-1{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+@media (min-width: 481px){
+  .aa{
+    border: 1.7px solid #ebe9f1;
+    border-radius: 0%;
+  }
+  .bb{
+    border: 1.7px solid #ebe9f1;
+     border-top: none;
+      border-radius: 0%
+  }
+  .cc{
+    border: 1.7px solid #ebe9f1;
+     border-top: none;
+      border-radius: 0%
+  }
+  .dd{
+    border: 1.7px solid #ebe9f1;
+     border-top: none;
+      border-radius: 0%
+  }
+
+  .ee{
+     border: 1.7px solid #ebe9f1;
+     border-top: none;
+      border-radius: 0%
+  }
+  .ff{
+     border: 1.7px solid #ebe9f1;
+     border-top: none;
+      border-radius: 0%
+  }
+  .gg{
+     border: 1.7px solid #ebe9f1;
+     border-top: none;
+      border-radius: 0%
+  }
+  .hh{
+    border: 1.7px solid #ebe9f1;
+     border-top: none;
+      border-radius: 0%
+  }
+}
+
+@media (min-width: 1200px) {
+  .aa{
+    border: 1.7px solid #ebe9f1;
+     border-right: none;
+      border-radius: 0%
+  }
+
+  .bb{
+    border: 1.7px solid #ebe9f1;
+     border-right: none;
+      border-radius: 0%
+  }
+  .cc{
+    border: 1.7px solid #ebe9f1;
+     border-right: none;
+      border-radius: 0%
+  }
+  .dd{
+    border: 1.7px solid #ebe9f1;
+     border-right: none;
+      border-radius: 0%
+  }
+  .ee{
+    border: 1.7px solid #ebe9f1;
+     border-right: none;
+      border-radius: 0%
+  }
+  .ff{
+    border: 1.7px solid #ebe9f1;
+     border-right: none;
+      border-radius: 0%
+  }
+  .gg{
+    border: 1.7px solid #ebe9f1;
+     border-right: none;
+      border-radius: 0%
+  }
+  .hh{
+    border: 1.7px solid #ebe9f1;
+     border-right: none;
+      border-radius: 0%
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .aa{
+    border: 1.7px solid #ebe9f1;
+     border-right: none;
+      border-radius: 0%
+  }
+
+  .bb{
+    border: 1.7px solid #ebe9f1;
+     border-right: none;
+      border-radius: 0%
+  }
+  .cc{
+    border: 1.7px solid #ebe9f1;
+     border-right: none;
+      border-radius: 0%
+  }
+  .dd{
+    border: 1.7px solid #ebe9f1;
+     /* border-right: none; */
+      border-radius: 0%
+  }
+  .ee{
+    border: 1.7px solid #ebe9f1;
+     border-right: none;
+     border-top: none;
+      border-radius: 0%
+  }
+  .ff{
+    border: 1.7px solid #ebe9f1;
+     border-right: none;
+     border-top: none;
+      border-radius: 0%
+  }
+  .gg{
+    border: 1.7px solid #ebe9f1;
+     border-right: none;
+     border-top: none;
+      border-radius: 0%
+  }
+  .hh{
+    border: 1.7px solid #ebe9f1;
+     border-top: none;
+      border-radius: 0%
+  }
+}
+
+@media (min-width: 992px) {
+  .aa{
+    border: 1.7px solid #ebe9f1;
+     border-right: none;
+
+      border-radius: 0%
+  }
+
+  .bb{
+    border: 1.7px solid #ebe9f1;
+     border-right: none;
+      border-radius: 0%
+  }
+  .cc{
+    border: 1.7px solid #ebe9f1;
+     border-right: none;
+      border-radius: 0%
+  }
+  .dd{
+    border: 1.7px solid #ebe9f1;
+     /* border-right: none; */
+      border-radius: 0%
+  }
+  .ee{
+    border: 1.7px solid #ebe9f1;
+     border-right: none;
+      border-radius: 0%;
+    border-top: none;
+  }
+  .ff{
+    border: 1.7px solid #ebe9f1;
+     border-right: none;
+          border-top: none;
+      border-radius: 0%
+  }
+  .gg{
+    border: 1.7px solid #ebe9f1;
+     border-right: none;
+          border-top: none;
+      border-radius: 0%
+  }
+  .hh{
+    border: 1.7px solid #ebe9f1;
+     /* border-right: none; */
+          border-top: none;
+      border-radius: 0%
+  }
+}
+
+@media (max-width: 576px) {
+  .aa{
+    border: 1.7px solid #ebe9f1;
+    border-radius: 0%;
+  }
+  .bb{
+    border: 1.7px solid #ebe9f1;
+     border-top: none;
+      border-radius: 0%
+  }
+  .cc{
+    border: 1.7px solid #ebe9f1;
+     border-top: none;
+      border-radius: 0%
+  }
+  .dd{
+    border: 1.7px solid #ebe9f1;
+     border-top: none;
+      border-radius: 0%
+  }
+
+  .ee{
+     border: 1.7px solid #ebe9f1;
+     border-top: none;
+      border-radius: 0%
+  }
+  .ff{
+     border: 1.7px solid #ebe9f1;
+     border-top: none;
+      border-radius: 0%
+  }
+  .gg{
+     border: 1.7px solid #ebe9f1;
+     border-top: none;
+      border-radius: 0%
+  }
+  .hh{
+    border: 1.7px solid #ebe9f1;
+     border-top: none;
+      border-radius: 0%
+  }
+}

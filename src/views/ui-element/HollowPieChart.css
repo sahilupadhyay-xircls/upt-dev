@@ -1,0 +1,15 @@
+.hollow-pie-chart {
+  position: relative;
+  width: 200px; /* Set the width of your chart */
+  height: 200px; /* Set the height of your chart */
+  text-align: center;
+}
+
+.percentage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5em;
+  font-weight: bold;
+}

@@ -1,0 +1,81 @@
+[
+    {
+        "title": "SuperLeadz",
+        "whatItDoes": "Reduces website drop-offs. Increases conversion rate. Generates self-qualified leads.",
+        "howItWorks": [
+            "A pop-up prompts the visitor to enter their email address and/or mobile number in exchange for an exclusive offer that they can redeem instantly.",
+            "Upon submission, the visitor becomes a lead and receives one or more offers directly within the pop-up.",
+            "The lead selects their preferred offer and clicks on \"Redeem\". The offer code will now be automatically applied at checkout.",
+            "Optional: The lead is asked to authenticate their email address/mobile number through one-time password verification."
+        ],
+        "benefits": [
+            "Instantly incentivize website visitors to make a purchase. Reduce the time interval between arrival and intent to buy.",
+            "Tailor distinct pop-up interactions and assign different offers to different segments, from first-time visitors to registered users.",
+            "Generate valuable self-qualified leads. Build high-quality email lists for future remarketing purposes."
+        ],
+        "recommended": [
+            "Optimize inbound marketing spend for greater conversions.",
+            "Discreetly push different offers for different visitor segments, from first-time visitors to returning shoppers.",
+            "Convert more anonymous website visitors into self-qualified, marketable leads."
+        ]
+    },
+    {
+        "title": "Infiniti",
+        "whatItDoes": "It’s a collaborative, network-powered rewards tool for year-round customer engagement& retention. Reward purchases with offers from non-competing partner brands. Also get personally recommended by partner brands to your ideal future customers.",
+        "howItWorks": [
+            "A pop-up informs the visitor that they will receive offers from non-competing & complementary partner brands on making a purchase.",
+            "After completing the purchase, the visitor is displayed the partner offers on the Thank You page and receives an email with the same.",
+            "Additionally, partner brands recommend you to their customers in the same way as above.",
+            "Optional: You can also add your own Retention offer to encourage repeat purchase.",
+            "Optional: With the Inner XIRCL feature, you can custom-pick the partner offers that your customers receive."
+        ],
+        "benefits": [
+            "Provide meaningful value addition, via partner brands, to drive more purchases.",
+            "Encourage existing customers to repurchase more often.",
+            "Curate different sets of partner offers for different customer segments on parameters such as location and customer spend.",
+            "Make a powerful impact on future buyers by having partner brands recommend you to their customers."
+        ],
+        "recommended": [
+            "Customer retention& loyalty-building.",
+            "Brand awareness & recall."
+        ]
+    },
+    {
+        "title": "Semper Fi",
+        "whatItDoes": "Partner-funded loyalty-building - all year round. It’s the only loyalty program in the world where other businesses reward your customers for shopping with you!",
+        "howItWorks": [
+            "A pop-up informs the visitor that they will receive offers from non-competing & complementary partner brands on making a purchase.",
+            "After completing the purchase, the visitor is displayed the partner offers on the Thank You page and receives an email with the same.",
+            "Optional: You can also add your own Retention offer to encourage repeat purchase.",
+            "Optional: With the Inner XIRCL feature, you can custom-pick the partner offers that your customers receive."
+        ],
+        "benefits": [
+            "Provide meaningful value addition, via partner brands, to drive more purchases.",
+            "Encourage existing customers to repurchase more often.",
+            "Curate different sets of partner offers for different customer segments on parameters such as location and customer spend."
+        ],
+        "recommended": [
+            "Customer retention& loyalty-building"
+        ]
+    },
+    {
+        "title": "DemoCrazy",
+        "whatItDoes": "Interactive website buttons that prompt website visitors to share their demographic data, likes & preferences during sign-up/login without adding additional form fields.",
+        "howItWorks": [
+            "An attractive button displaying two icons (that represent two different data points) prompts the visitor to click on one.",
+            "After an icon is selected, the visitor is led to the sign-up/login form to proceed as usual.",
+            "Data can be collected over consecutive logins on multiple data points to build a comprehensive user profile.",
+            "Optional: The visitor can be led to specific pages on the website depending on the icon they select."
+        ],
+        "benefits": [
+            "Collect crucial data about your website visitors and customers without resorting to annoying surveys, polls or adding extra form fields during sign-up.",
+            "Dynamically& instantly personalize a visitor’s shopping experience the moment they reveal something about themselves.",
+            "Playfully encourage account sign-ups. Build a data-rich email list for future marketing purposes.",
+            "Gain customer trust by being transparent about the data you gather and offer fair value in return."
+        ],
+        "recommended": [
+            "Zero-party data collection.",
+            "Personalized shopping experiences for different demographic or interest groups e.g. men or women, vegetarian or non-vegetarian, cricket lovers or football fanatics."
+        ]
+    }
+]

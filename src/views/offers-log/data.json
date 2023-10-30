@@ -1,0 +1,61 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "referrer_value": 15,
+            "referrer_type": "PERCENTAGE",
+            "referrer_minimum": 1,
+            "referree_value": 14,
+            "referree_type": "PERCENTAGE",
+            "referree_minimum": 1,
+            "shop": "vivekmevada.myshopify.com",
+            "app": "referral",
+            "is_active": false,
+            "created_at": "2023-07-18T16:50:54.903481+05:30",
+            "updated_at": "2023-09-07T13:14:55.831866+05:30"
+        },
+        {
+            "id": 2,
+            "referrer_value": 24,
+            "referrer_type": "PERCENTAGE",
+            "referrer_minimum": 1,
+            "referree_value": 41,
+            "referree_type": "PERCENTAGE",
+            "referree_minimum": 2,
+            "shop": "vivekmevada.myshopify.com",
+            "app": "referral",
+            "is_active": false,
+            "created_at": "2023-09-07T13:15:37.064533+05:30",
+            "updated_at": "2023-09-07T13:39:07.174919+05:30"
+        },
+        {
+            "id": 3,
+            "referrer_value": 24,
+            "referrer_type": "PERCENTAGE",
+            "referrer_minimum": 1,
+            "referree_value": 41,
+            "referree_type": "PERCENTAGE",
+            "referree_minimum": 2,
+            "shop": "vivekmevada.myshopify.com",
+            "app": "referral",
+            "is_active": false,
+            "created_at": "2023-09-07T13:15:56.646297+05:30",
+            "updated_at": "2023-09-07T13:38:57.899923+05:30"
+        },
+        {
+            "id": 6,
+            "referrer_value": 24,
+            "referrer_type": "PERCENTAGE",
+            "referrer_minimum": 1,
+            "referree_value": 42,
+            "referree_type": "PERCENTAGE",
+            "referree_minimum": 2,
+            "shop": "vivekmevada.myshopify.com",
+            "app": "referral",
+            "is_active": true,
+            "created_at": "2023-09-07T13:40:04.545504+05:30",
+            "updated_at": "2023-09-07T13:40:04.545581+05:30"
+        }
+    ],
+    "count": 4
+}

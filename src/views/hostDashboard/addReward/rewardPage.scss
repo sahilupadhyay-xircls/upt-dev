@@ -1,0 +1,49 @@
+.fileUpload {
+
+    label {
+        background-color: #696AEC;
+        color: white;
+        padding: 10px 20px;
+        font-family: sans-serif;
+        border-radius: 0.3rem;
+        cursor: pointer;
+        margin-top: 1rem;
+    }
+}
+
+
+// add reward nav
+.addReward_Nav {
+
+
+    .active {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .addReward_Nav_Icon {
+            color: white !important;
+            background: #696AEC !important;
+        }
+
+        h5 {
+            color: #696AEC !important;
+
+        }
+    }
+    .inactive {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .addReward_Nav_Icon {
+            color: rgb(163, 161, 161) !important;
+            background: #ebebeb !important;
+        }
+
+        h2 {
+            color: #525252 !important;
+
+        }
+    }
+}

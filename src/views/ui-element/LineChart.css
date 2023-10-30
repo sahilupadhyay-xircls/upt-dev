@@ -1,0 +1,51 @@
+/* LineChart.css */
+.line-chart {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.radio-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.radio-buttons label {
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 1.7vh;
+  font-weight: 450;
+}
+
+.radio-buttons input[type="radio"] {
+  margin-right: 5px;
+  cursor: pointer;
+  width: 8px;
+}
+
+canvas {
+  max-width: 100%;
+}
+
+/* Media Query for Small Devices (e.g., smartphones) */
+@media (max-width: 480px) {
+  .line-chart {
+    padding: 10px;
+  }
+
+  .radio-buttons {
+    flex-direction: column;
+    margin-left: 36%;
+  }
+
+  .radio-buttons label {
+    margin: 5px 0;
+  }
+}
+
+input {
+  opacity: 1;
+  cursor: pointer;
+}
+

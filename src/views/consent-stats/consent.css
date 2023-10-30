@@ -1,0 +1,15 @@
+.consentCard {
+    width: 45%;
+}
+
+.consentLogo {
+    font-size: 20px;
+    width: 50px;
+    aspect-ratio: 1/1;
+}
+
+@media screen and (max-width: 883px) {
+    .consentCard {
+        width: 100%;
+    }
+}

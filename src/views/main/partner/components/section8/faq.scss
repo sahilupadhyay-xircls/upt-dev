@@ -1,0 +1,114 @@
+.faq-page {
+    @mixin mobile {
+        @media (max-width: 512px) {
+            @content;
+        }
+    }
+
+    @mixin laptop {
+        @media (max-width: 912px) {
+            @content;
+        }
+    }
+
+    @mixin laptop-md {
+        @media (max-width: 770px) {
+            @content;
+        }
+    }
+    width: 75% !important;
+    margin:auto;
+    $bg: #fff;
+    $text: #7288a2;
+    $gray: #4d5974;
+    $lightgray: #e5e5e5;
+    $blue: #03b5d2;
+
+  @include mobile{
+    width: 95% !important;
+
+  }
+
+    .accordion {
+        .accordion-item {
+            border-bottom: 1px solid $lightgray;
+
+            button[aria-expanded='true'] {
+                // border-bottom: 1px solid $blue;
+            }
+        }
+
+        button {
+            position: relative;
+            display: block;
+            text-align: left;
+            width: 100%;
+            padding: 1em 0;
+            font-weight: 400;
+            border: none;
+            background: none;
+            outline: none;
+            .icon-minus {
+                display: none;
+            }
+            .icon-plus {
+                display: block;
+            }
+            &:hover,
+            &:focus {
+                cursor: pointer;
+                color: $blue !important;
+
+                &::after {
+                    cursor: pointer;
+                    color: $blue;
+                    border: 1px solid $blue;
+                }
+            }
+
+            .accordion-title {
+                padding: 1em 1.5em 1em 0;
+            }
+
+            .icon {
+                display: inline-block;
+                position: absolute;
+                top: 18px;
+                right: 0;
+               
+            }
+        }
+
+        
+
+        button[aria-expanded='true'] {
+            .icon-plus {
+                display: none;
+                
+            }
+            .icon-minus {
+                display: block;
+                *{
+                    color: #000 !important;
+                    opacity: 1 !important;
+
+                }
+            }
+       
+            +.accordion-content {
+                max-height: 500px;
+                transition: all 1s ease;
+                will-change: opacity, max-height;
+            }
+        }
+
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+                       transition: all 1s ease;
+
+            will-change: opacity, max-height;
+
+        }
+    }
+}

@@ -1,0 +1,67 @@
+.report_table {
+
+    .rdt_TableHeadRow {
+
+        border: none !important;
+    }
+
+    .rdt_TableRow {
+        border: none !important;
+
+        &:hover {
+            background: #e9e9e970;
+            color: #898AF0;
+            cursor: pointer;
+
+        }
+    }
+
+    .rdt_TableCol {
+        border: solid 1px rgba(0, 0, 0, 0.1);
+    }
+
+
+
+    .rdt_TableCell {
+        border: solid 0.1px rgba(0, 0, 0, 0.1);
+        border-collapse: collapse;
+        // border-bottom: none ;
+
+    }
+
+}
+
+.report_table_border {
+
+    .rdt_TableHeadRow {
+
+        border: none !important;
+    }
+
+   
+
+    .rdt_TableCol {
+        border: solid 1px rgba(0, 0, 0, 0.1);
+    }
+
+
+
+    .rdt_TableCell {
+        border: solid 0.1px rgba(0, 0, 0, 0.1);
+        border-collapse: collapse;
+        // border-bottom: none ;
+
+    }
+
+}
+
+// modal imgs css
+.modal-imgs {
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
+    transition: all .25s;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.03);
+    }
+}

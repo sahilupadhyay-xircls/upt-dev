@@ -1,0 +1,51 @@
+.stats {
+    border-right: 2px solid rgba(136, 136, 136, 0.5);
+}
+
+.statsCount {
+    /* letter-spacing: 2px; */
+    transform: scale(1, 1.2);
+}
+
+.statsLogoReach {
+    background-image: conic-gradient(rgba(116, 105, 239, 255) 10deg, rgba(232, 230, 252, 255) 5deg, rgba(232, 230, 252, 255) 345deg);
+}
+
+.statsLogoClicks {
+    background-image: conic-gradient(rgba(90, 200, 140, 255) 10deg, rgba(220, 246, 232, 255) 5deg, rgba(220, 246, 232, 255) 345deg);
+}
+
+.statsLogoRedemptions {
+    background-image: conic-gradient(rgba(255, 182, 114, 255) 10deg, rgba(255, 239, 225, 255) 5deg, rgba(255, 239, 225, 255) 345deg);
+}
+
+.statsLogoRevenue {
+    background-image: conic-gradient(rgba(236, 107, 108, 255) 10deg, rgba(251, 227, 228, 255) 5deg, rgba(251, 227, 228, 255) 345deg);
+}
+
+.statsLogo {
+    width: 80px;
+    aspect-ratio: 1/1;
+    font-size: 40px;
+    margin: 3px;
+    /* border: 2px solid gainsboro; */
+}
+
+@media screen and (min-width: 1200px) {
+    .stats:last-child {
+        border-right: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .stats:nth-child(even) {
+        border-right: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .stats {
+        border-right: none;
+        margin-bottom: 20px;
+    }
+}

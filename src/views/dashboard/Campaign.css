@@ -1,0 +1,47 @@
+
+.section-1-heading h4{
+    font-size: calc(1.2536rem + 0.0432vw);
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #5e5873;
+}
+
+.dark-layout .table:not(.table-dark):not(.table-light) thead:not(.table-dark) th, .dark-layout .table:not(.table-dark):not(.table-light) tfoot:not(.table-dark) th {
+    background-color: #343d55;
+    text-transform: initial;
+}
+
+.table:not(.table-dark):not(.table-light) thead:not(.table-dark) th, .table:not(.table-dark):not(.table-light) tfoot:not(.table-dark) th {
+    background-color: #f3f2f7;
+    text-transform: initial;
+}
+
+
+.dVgdrY {
+    position: relative;
+    width: 100%;
+    border-radius: inherit;
+    min-height: 0;
+}
+
+.table > :not(caption) > * > * {
+    padding: 0.72rem 0.9rem;
+    background-color: var(--bs-table-bg);
+    border-bottom-width: 1px;
+    box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+    overflow: hidden;
+}
+
+.row {
+    --bs-gutter-x: 2rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+    display: flex;
+    justify-content: space-between;
+}

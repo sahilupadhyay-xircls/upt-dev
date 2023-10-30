@@ -1,0 +1,32 @@
+/* .tooltip-arrow {
+  background-color: red !important;
+} */
+.tooltip {
+  background-color: #F8F8F8; /* Set the background color */
+  color: #000000; /* Set the text color */
+}
+
+.tooltip-inner {
+  background-color: white !important;
+  color: black !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+
+}
+.tooltip-arrow {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid white !important;
+  border-width: 10px !important;
+  
+
+}
+.tooltip-arrow::before {
+  border-top-color: white !important;
+  border-right-color: white !important;
+  border-bottom-color: white !important;
+  border-left-color: white !important;
+  border-color: white !important;
+  border-width: 0px !important;
+}

@@ -1,0 +1,15 @@
+.section9 {
+    .numBor {
+        border: solid 2px rgb(55, 55, 55) !important;
+        min-height: 30px;
+        min-width: 30px;
+        max-height: 30px;
+        max-width: 30px;
+    }
+
+    .SlideDropDown{
+        max-height: 0;
+        overflow: hidden !important;
+        transition: max-height .6s ease-in-out;
+    }
+}

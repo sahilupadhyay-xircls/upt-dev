@@ -1,0 +1,60 @@
+@font-face {
+    font-family: brandon-grotesque;
+    /* src: url("../../../public/fonts/brandon-1/brandon-grotesque-black-58a8a3e824392.otf"); */
+    /* src: url("../../../public/fonts/brandon-2/Brandon_light.otf"); */
+    src: url("../../../public/fonts/brandon-2/Brandon_reg.otf");
+    /* src: url("../../../public/fonts/brandon-2/Brandon_med.otf"); */
+    font-weight: 400 !important;
+}
+
+@font-face {
+    font-family: open-serif;
+    src: url(../../../public/fonts/open-serif/OpenSerif-Book.ttf);
+    font-weight: 400 !important;
+}
+
+.customStyle {
+    color: #8a929e;
+    letter-spacing: 0.34px !important;
+    line-height: 16px !important;
+    font-weight: 400 !important;
+}
+
+.brandonFont {
+    font-family: "brandon-grotesque" !important;
+}
+
+.openSerifFont {
+    font-family: open-serif !important;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.logoIssued {
+    background-color: rgba(232, 230, 252, 255);
+    color: rgba(116, 105, 239, 255);
+}
+
+.logoReferrals {
+    background-color: rgba(220, 246, 232, 255);
+    color: rgba(44, 200, 113, 255);
+}
+
+.logoRedeemed {
+    background-color: rgba(255, 239, 225, 255);
+    color: rgba(255, 182, 114, 255);
+}
+
+.logoCredit {
+    background-color: rgba(214, 247, 251, 255);
+    color: rgba(111, 228, 242, 255);
+}
+
+.logoSample {
+    background-color: rgba(251, 227, 228, 255);
+    color: rgba(236, 107, 108, 255);
+}

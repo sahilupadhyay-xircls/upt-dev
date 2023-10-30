@@ -1,0 +1,31 @@
+input {
+    outline: none;
+    border-width: 1px;
+    border-style: solid;
+}
+
+input:focus {
+    outline: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    transition: border 0.2s;
+}
+
+.toggleBtn, .toggleotion {
+    position: relative;
+}
+
+.toggleBtn::after {
+    content: '';
+    position: absolute;
+    top: 40%;
+    left: 95%;
+}
+
+.toggleotion::after {
+    content: '';
+    position: absolute;
+    top: 40%;
+    left: 97%;
+}

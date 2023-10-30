@@ -1,0 +1,6 @@
+hr:not([size]) {
+    height: 0.3vh;
+    background-color: #dbd6e8;
+    width: 50%;
+    margin: auto;
+}

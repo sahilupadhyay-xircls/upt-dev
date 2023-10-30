@@ -1,0 +1,98 @@
+.contain-value .item-contain{
+    width: 180px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.23) 0px 1px 3px;
+}
+h2{
+    font-weight: 500;
+   font-size: 1.285rem;
+   
+   padding: 10px;
+}
+.seperate{
+    
+}
+.cardText{
+    font-size: 13px;
+    font-weight: 500;
+}
+small{
+    margin-top:20px ;
+    font-size: 13px;
+}
+
+.much{
+    font-size: 20px;
+    border: 1px solid #C6C6C6;
+    padding: 0px 6px 0px 6px;
+}
+
+.contain-value .item-contain:hover{
+    border:0.3px solid #cf2b2b;
+}
+.contain-value .img-log{
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+}
+.table .img-log{
+    height: 80px;
+    width: 70px;
+    padding: 8px;
+}
+.email{
+    background: hwb(124 47% 12%);
+}
+.contain-value .img-bg img{
+    width: 100%; 
+    height: 100%;
+}
+.table .img-bg img{
+    width: 100%; 
+    height: 100%;
+}
+.filter-contain{
+    width: 100%;
+}
+.input-select{
+    width: 30%;
+    font-size: 11px;
+    margin-left: 10px;
+   
+}
+.input-select-text{
+    width: 100%;
+    font-size: 11px;
+}
+.filter{
+    position: relative;
+    top: 38%;
+    left: -10%;
+    height: 20px;
+    width: 25px;
+}
+.filter img{
+    height: 100%;
+    width: 100%;
+      
+}
+.searchbar{
+margin-left: 50px;
+width: 65%;
+}
+.tal-val{
+    padding: 5px;
+}
+.searchbarwidth{
+    border-radius: 15px;
+    margin-top: 8px;
+    padding: 9px;
+}
+.heading-1{
+    margin-left: 167px;
+}
+.t-style{
+    font-size: 11px;
+    font-weight: 600;
+}
+
