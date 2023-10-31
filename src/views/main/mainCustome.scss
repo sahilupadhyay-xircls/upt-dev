@@ -51,15 +51,6 @@
 
 
 // heading
-.lh-83{
-    line-height: 83px !important;
-    @include tab{
-        line-height: 67px !important;
-    }
-      @include mobile{
-        line-height: 40px !important;
-    }
-}
 
 .main-heading {
     // color: #000 !important;
@@ -72,6 +63,15 @@
 
 
 // line height
+.lh-83{
+    line-height: 83px !important;
+    @include tab{
+        line-height: 67px !important;
+    }
+      @include mobile{
+        line-height: 40px !important;
+    }
+}
 
 .lh-29 {
     line-height: 29px !important;

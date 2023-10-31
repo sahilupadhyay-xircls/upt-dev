@@ -96,9 +96,8 @@ export default function Developer() {
 
       {/* section3 */}
       <Row className=" justify-content-center mt180" >
-        <Col lg="10" xs="10">
-          <Row>
-            <Col className='mt-1'>
+        <Col lg="9" xs="10">
+          
               <div className='' >
                 <div className='section3-heading'>
                   <h1 className='mainHeader display-3 main-heading fw-bolder m-0 mt-2 text-black text-center ' style={{ fontWeight: "600" }}>Our tech, your growth</h1>
@@ -107,8 +106,7 @@ export default function Developer() {
                   <h3 className=' text-black m-0 fs-3 text-center '>Monetize the most cutting-edge APIs in marketing</h3>
                 </div>
               </div>
-            </Col>
-          </Row>
+           
           <Row className='text-center mt-md-5' >
             {
               ourTech.map((data) => (

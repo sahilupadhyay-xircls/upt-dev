@@ -65,7 +65,7 @@ const Home = () => {
 
       {/* section 1 */}
       <div className='mt80   d-flex flex-column justify-content-center ' style={{ height: '100%' }} >
-        <h1 className='display-1 text-center main-heading fw-bolder ' >
+        <h1 className='display-1 text-center main-heading fw-bolder lh-83 ' >
           From First Visit <br /> To Forever Loyal.
         </h1>
         <h1 className=' text-center text-black  mt-1 px-3' style={{ marginBottom: "40px" }}>An end-to-end martech stack for every step of the buyer journey.</h1>

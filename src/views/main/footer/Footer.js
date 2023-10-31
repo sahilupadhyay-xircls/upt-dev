@@ -41,7 +41,7 @@ const Footer = () => {
 
                     </Col>
 
-                    <Col lg="2" md="3" xs="6" className="p-0 mt-3 mt-lg-0" style={{maxWidth:"100px"}}>
+                    <Col lg="2" md="3" xs="6" className="p-0 mt-3 mt-lg-0" >
                         <h5 className='text-black fw-bolder mb-2'>Products</h5>
                         <ul className=' list-unstyled'>
                             <li className='mb-1'>SuperLeadz</li>
@@ -58,7 +58,7 @@ const Footer = () => {
                             <li className='mb-1'>Vision & Mission </li>
                         </ul>
                     </Col>
-                    <Col lg="2" md="3" xs="6" className="p-0 mt-3 mt-lg-0" style={{maxWidth:"100px"}}>
+                    <Col lg="2" md="3" xs="6" className="p-0 mt-3 mt-lg-0" >
                         <h5 className='text-black fw-bolder mb-2'>Company</h5>
                         <ul className=' list-unstyled'>
                             <li className='mb-1'>Our Team</li>

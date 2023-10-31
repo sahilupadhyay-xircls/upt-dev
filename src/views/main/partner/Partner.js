@@ -113,8 +113,8 @@ export default function Partner() {
                 <div className='py-3 d-flex justify-content-center flex-column align-items-center'  >
                     <div className=' text-center '>
                         <div>
-                            <h1 className='display-1 main-heading fw-bolder m-0 ' > Leverage Your Network. </h1>
-                            <h1 className='display-1 main-heading fw-bolder  '> Earn Recurring Revenue. </h1>
+                            <h1 className='display-1 main-heading fw-bolder m-0 lh-83' > Leverage Your Network. <br/>
+                             Earn Recurring Revenue. </h1>
                         </div>
                         <h2 className='lh-29 mt-1 w-75 m-auto text-dark fw-bold px-1 '>Grow your business while you hello your audience grow theirs.<span className='text-black fw-bolder'> Earn a 20% commission every time </span>your referrals buy from us. </h2>
                     </div>
@@ -236,7 +236,7 @@ export default function Partner() {
                     <h1 className='display-1 fw-bold mt-3 text-white text-start lh-sm ' >Get the <br />XIRCLS Partner <br /> Advantage.</h1>
                     <Row className='match-height mt-2 '>
                         <Col lg="6" md="6" className=''>
-                            <Card className='   shadow-none  d-flex flex-column p-1 justify-content-start align-items-start' style={{ background: "#000" }}>
+                            <Card className=' border-none  shadow-none  d-flex flex-column p-1 justify-content-start align-items-start' style={{ background: "#000",border:'none' }}>
                                 <h4 className=' fs-2  fw-lig w-75 text-light' >Performing at the highest degree possible, these are the common traits reps accepted to XIRCLS have in common.</h4>
                                 <Link to="" className=' btn  btn-lg main-btn-white mt-3 px-3 py-1'> Apply Now</Link>
                                 <div className='ms-auto arrow' >
@@ -245,7 +245,7 @@ export default function Partner() {
                             </Card>
                         </Col>
                         <Col lg="6" md="6" >
-                            <Card className='   shadow-none  d-flex flex-column p-1 justify-content-end align-items-center mt-2' style={{ background: "#000" }}>
+                            <Card className=' border-none   shadow-none  d-flex flex-column p-1 justify-content-end align-items-center mt-2' style={{ background: "#000",border:'none' }}>
                                 <ul className='d-flex flex-column gap-3'>
                                     <li className='d-flex align-items-center gap-3' ><img src="https://uploads-ssl.webflow.com/5fac11c3554384e2baf6481c/61fa78aa67d329961f45979f_check-icon.svg" alt="" srcset="" width={40} /><h4 className='fs-1 text-white fw-lig m-0'>No Sign-up Costs</h4></li>
                                     <li className='d-flex align-items-center gap-3' ><img src="https://uploads-ssl.webflow.com/5fac11c3554384e2baf6481c/61fa78aa67d329961f45979f_check-icon.svg" alt="" srcset="" width={40} /><h4 className='fs-1 text-white fw-lig m-0'>Track Performance</h4></li>

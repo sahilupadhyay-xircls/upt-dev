@@ -70,7 +70,7 @@ export default function Section9() {
 
 
         <Row className='section9 justify-content-center mt180 '>
-            <Col xs="10" lg="9"   >
+            <Col xs="10" lg="9"    >
                 <Row className='pt-2'>
                     <Col lg="6" className=''>
                         <h1 className='display-3 main-heading fw-bolder '>We’re Here For You.</h1>
