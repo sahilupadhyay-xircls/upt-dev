@@ -103,7 +103,7 @@ useEffect(() => {
       desc: "To Empower Businesses, Globally",
       img: VisionMissionLogo,
       logo: <TiFlashOutline size={23} color='' className='text-dark' />,
-      link: "/"
+      link: "/vision-&-mission"
 
     },
     {
@@ -233,9 +233,9 @@ useEffect(() => {
 
           </ul>
           <div className='navBtn gap-1'>
-            <button type="button" className=' btn  btn-lg main-btn-blue fs-4 p-1'>Signup for Free</button>
+            <h4 type="button" className=' btn  btn-lg main-btn-blue fs-4 p-1'>Signup for Free</h4>
 
-            <button type="button" className=' btn btn-lg main-btn-dark fs-4' >Login</button>
+            <h4 type="button" className=' btn btn-lg main-btn-dark fs-4' >Login</h4>
           </div>
         </div>
         <div className='menuBtn' onClick={() => { setToggleMenu(!toggleMenu); setShowProducts(false); setShowCompany(false) }}>

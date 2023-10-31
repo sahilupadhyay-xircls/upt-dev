@@ -61,8 +61,8 @@ const Footer = () => {
                     <Col lg="2" md="3" xs="6" className="p-0 mt-3 mt-lg-0" >
                         <h5 className='text-black fw-bolder mb-2'>Company</h5>
                         <ul className=' list-unstyled'>
-                            <li className='mb-1'>Our Team</li>
-                            <li className='mb-1'>Partners</li>
+                            <li className='mb-1'> <Link to='/team'>Our Team </Link></li>
+                            <li className='mb-1'><Link to='/partner'> Partners </Link></li>
                             <li className='mb-1'>Blog</li>
                         </ul>
 

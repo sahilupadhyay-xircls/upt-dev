@@ -3,6 +3,7 @@ import Test from '../../test/Test'
 import Developer  from '@src/views/main/developer/Developer'
 import ContactUs from '@src/views/main/contactUs/ContactUs'
 // import SuperLeadz from '@src/views/main/superLeadz/SuperLeadz'
+const Vision = lazy(() => import('../../views/main/vision/Vision'))
 const Features = lazy(() => import('@src/views/main/superLeadz/features/Features'))
 const Team = lazy(() => import('@src/views/main/team/Team'))
 const Partner = lazy(() => import('@src/views/main/partner/Partner'))
@@ -46,7 +47,13 @@ const Homes_Routes = [
       layout: "blank"
     }
   },
-
+  {
+    path: '/vision-&-mission',
+    element: <Vision />,
+    meta: {
+      layout: "blank"
+    }
+  },
   {
     path: '/test',
     element: <Test />,

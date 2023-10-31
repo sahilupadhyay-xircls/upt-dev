@@ -1,0 +1,29 @@
+
+
+
+
+
+.mission-1 {
+  border-right: 1px solid black;
+}
+
+.mission-3 {
+  border-left: 1px solid black;
+}
+
+
+
+
+/* lg */
+@media (max-width: 992px) {
+
+
+
+  .mission-1,
+  .mission-2,
+  .mission-3 {
+    border-left: 1px solid black;
+    border-right: none;
+  }
+
+}
