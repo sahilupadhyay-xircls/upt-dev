@@ -1,11 +1,12 @@
 import React from 'react'
 import Section3 from './components/section3/Section3'
-import './superLeadz.scss'
 
 import Section13 from './components/section13/Section13'
 
-import Navbar from '../navbar/Navbar'
-import Footer from '../footer/Footer'
+import Navbar from '../../navbar/Navbar'
+import Footer from '../../footer/Footer'
+import SubNavbar from '../../navbar/SubNavbar';
+
 import { BsArrowRight } from 'react-icons/bs'
 import attract from './images/Attract.jpeg'
 import { Col, Row, Card, Container } from 'reactstrap'
@@ -89,13 +90,15 @@ export default function SuperLeadz() {
     ]
 
     return (
-        <div style={{ background: "#fff", paddingBottom: "200px" }} className='superLeadzHome'>
+        <div style={{ background: "#fff",  }} className='superLeadzHome'>
 
-            <Navbar />
+            <Navbar position={'notFixed'}/>
+            <SubNavbar title="SuperLeadz" />
+
             {/* Section 1 */}
-            <div className='mt80 '  >
+            <div className=' py-5  '  >
 
-                <div className='   d-flex flex-column justify-content-center ' style={{ height: '100%' }} >
+                <div className=' d-flex flex-column justify-content-center mt80'  >
                     <h1 className='display-1 text-center main-heading fw-bolder px-2'>
                         Sold At First Sight!
                     </h1>
@@ -276,85 +279,85 @@ export default function SuperLeadz() {
             {/* Section 11 */}
 
             <Row className='mt180 justify-content-center'>
-            <Col md='12' lg="10" className='' >
+                <Col md='12' lg="10" className='' >
 
-                <Row className=' '>
-                    <Col md="5" className='text-end' >
-                        <img src={image2} alt='...' />
-                    </Col>
-                    <Col md="7" className='  d-flex justify-content-center flex-column align-items-center '>
-                        <div className=' text-center text-sm-start '>
-                            <h1 className='display-3  main-heading fw-bolder pt-5'>Introducing Team <br />Performance Report.</h1>
-                            <h3 className='h3 text-secondary lh-29 mt-1 pb-5'>Gain insights into your team’s client retention, prebooking, and schedule
-                                utilization rates to understand its performance and business health.
-                                Nurture and incentivize your team to grow the business together.</h3>
-                        </div>
+                    <Row className=' '>
+                        <Col md="5" className='text-end' >
+                            <img src={image2} alt='...' />
+                        </Col>
+                        <Col md="7" className='  d-flex justify-content-center flex-column align-items-center '>
+                            <div className=' text-center text-sm-start '>
+                                <h1 className='display-3  main-heading fw-bolder pt-5'>Introducing Team <br />Performance Report.</h1>
+                                <h3 className='h3 text-secondary lh-29 mt-1 pb-5'>Gain insights into your team’s client retention, prebooking, and schedule
+                                    utilization rates to understand its performance and business health.
+                                    Nurture and incentivize your team to grow the business together.</h3>
+                            </div>
 
-                    </Col>
+                        </Col>
 
-                </Row>
+                    </Row>
 
-            </Col>
+                </Col>
 
-        </Row>
+            </Row>
 
-        {/* Section 12 */}
+            {/* Section 12 */}
 
-        <Row className='justify-content-center mt180'>
-            <div>
-                <h1 className='display-3 text-center main-heading fw-bolder'>Pick the plan for you.</h1>
-                <h3 className=' text-center text-black  mt-0 mb-3 px-5'>No hidden fees. Change or cancel any time.<br />
-                    tom pricing and discounts are available for qualifying businesses.</h3>
-            </div>
-            <Col md="12" xs="9" lg="10" xl="10" className=''>
-                <Container style={{ maxWidth: "100%" }}>
-                    <Row className='match-height justify-content-center'>
-                        {/* Main Card */}
-                        {pricingData.map((data, index) => ( 
-                            <Col xs="12" md="5" lg="5" xl="3" className='match-height'>
-                                <Card className=' match-height text-center p-0'>
-                                    <div>
-                                        <Pcard
-                                            key={index}
-                                            head={data.head}
-                                            value={data.value}
-                                            subValue={data.subValue}
-                                            button={data.button}
-                                            listHead={data.listHead}
-                                            items={data.items}
-                                        />
-                                    </div>
-                                    <a className="fs-5 text-primary text-start ps-3 pb-3 mt-1"> Read More <BsArrowRight /></a>
-                                </Card >
-                            </Col >
-                        ))}
-
-                    </Row >
-                </Container>
-            </Col >
-        </Row >
-
-        {/* Section 13 */}
-
-        <Row className='mt180 justify-content-center '>
-            <Col xs="11" md="7" className='text-center' >
-                <div className=''>
-                    <h1 className='display-3 fw-bolder text-black pb-0 pt-2'>Contact sales for custom pricing.</h1>
-                    <h3 className='text-black h3 justify-content-center p-x pt-1 pb-1 px-2' style={{lineHeight:'1.7'}}>Custom pricing is available for businesses that process over $250K per year.
-                        This plan includes everything in Premium, a dedicated Account Manager, and discounts on optional business tools,
-                        such as Square Online, Square Marketing, Square Payroll, and more.<span> <a className="h3 text-primary "> Read More <BsArrowRight /></a></span></h3>
-                </div>
+            <Row className='justify-content-center mt180'>
                 <div>
-                    <h4 className=' btn  btn-outline-primary main-btn- fs-3 '>Get Started</h4>
-                    <h2 className='text-black fs-4 fw-bold p-0 pt-1'>For payments taken online, by invoice or keyed in manually,
-                    <a className="fs-4 text-primary "> see card-not-present processing rates.<BsArrowRight /></a>
-                    </h2>
+                    <h1 className='display-3 text-center main-heading fw-bolder'>Pick the plan for you.</h1>
+                    <h3 className=' text-center text-black  mt-0 mb-3 px-5'>No hidden fees. Change or cancel any time.<br />
+                        tom pricing and discounts are available for qualifying businesses.</h3>
                 </div>
+                <Col md="12" xs="9" lg="10" xl="10" className=''>
+                    <Container style={{ maxWidth: "100%" }}>
+                        <Row className='match-height justify-content-center'>
+                            {/* Main Card */}
+                            {pricingData.map((data, index) => (
+                                <Col xs="12" md="5" lg="5" xl="3" className='match-height'>
+                                    <Card className=' match-height text-center p-0'>
+                                        <div>
+                                            <Pcard
+                                                key={index}
+                                                head={data.head}
+                                                value={data.value}
+                                                subValue={data.subValue}
+                                                button={data.button}
+                                                listHead={data.listHead}
+                                                items={data.items}
+                                            />
+                                        </div>
+                                        <a className="fs-5 text-primary text-start ps-3 pb-3 mt-1"> Read More <BsArrowRight /></a>
+                                    </Card >
+                                </Col >
+                            ))}
 
-            </Col>
-        </Row>
+                        </Row >
+                    </Container>
+                </Col >
+            </Row >
 
-        <hr className='mt170' />
+            {/* Section 13 */}
+
+            <Row className='mt180 justify-content-center '>
+                <Col xs="11" md="7" className='text-center' >
+                    <div className=''>
+                        <h1 className='display-3 fw-bolder text-black pb-0 pt-2'>Contact sales for custom pricing.</h1>
+                        <h3 className='text-black h3 justify-content-center p-x pt-1 pb-1 px-2' style={{ lineHeight: '1.7' }}>Custom pricing is available for businesses that process over $250K per year.
+                            This plan includes everything in Premium, a dedicated Account Manager, and discounts on optional business tools,
+                            such as Square Online, Square Marketing, Square Payroll, and more.<span> <a className="h3 text-primary "> Read More <BsArrowRight /></a></span></h3>
+                    </div>
+                    <div>
+                        <h4 className=' btn  btn-outline-primary main-btn- fs-3 '>Get Started</h4>
+                        <h2 className='text-black fs-4 fw-bold p-0 pt-1'>For payments taken online, by invoice or keyed in manually,
+                            <a className="fs-4 text-primary "> see card-not-present processing rates.<BsArrowRight /></a>
+                        </h2>
+                    </div>
+
+                </Col>
+            </Row>
+
+            <hr className='mt170' />
             <Footer />
 
 

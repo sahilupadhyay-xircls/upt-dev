@@ -2,7 +2,7 @@ import { lazy } from 'react'
 import Test from '../../test/Test'
 import Developer  from '@src/views/main/developer/Developer'
 import ContactUs from '@src/views/main/contactUs/ContactUs'
-// import SuperLeadz from '@src/views/main/superLeadz/SuperLeadz'
+import SuperLeadz from '../../views/main/superLeadz/home/SuperLeadz'
 const Vision = lazy(() => import('../../views/main/vision/Vision'))
 const Features = lazy(() => import('@src/views/main/superLeadz/features/Features'))
 const Team = lazy(() => import('@src/views/main/team/Team'))
@@ -33,6 +33,14 @@ const Homes_Routes = [
       layout: "blank"
     }
   },
+    {
+    path: '/superLeadz',
+    element: <SuperLeadz />,
+    meta: {
+      layout: "blank"
+    }
+  },
+  
   {
     path: '/superLeadz-features',
     element: <Features />,

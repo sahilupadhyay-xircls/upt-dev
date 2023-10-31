@@ -44,7 +44,7 @@ export default function SubNavbar({ title }) {
               <a className="nav-link text-dark" aria-current="page" href="#">Overview</a>
             </li>
             <li className="nav-item ">
-              <a className="nav-link text-dark" aria-current="page" href="#">Features</a>
+              <a className="nav-link text-dark" aria-current="page" href="./superLeadz-features">Features</a>
             </li>
 
             <li className="nav-item ">

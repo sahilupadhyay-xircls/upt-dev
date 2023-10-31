@@ -57,7 +57,7 @@ useEffect(() => {
       desc: "Lead Generation  ",
       img: InfinitiLogo,
       logo: <BsCodeSquare size={20} color='' className='text-dark' />,
-      link: "/superLeadz-features"
+      link: "/superLeadz"
     },
     {
       title: "Infinti",
