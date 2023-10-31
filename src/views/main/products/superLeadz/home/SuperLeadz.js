@@ -3,9 +3,9 @@ import Section3 from './components/section3/Section3'
 
 import Section13 from './components/section13/Section13'
 
-import Navbar from '../../navbar/Navbar'
-import Footer from '../../footer/Footer'
-import SubNavbar from '../../navbar/SubNavbar';
+import Navbar from '../../../utilities/navbar/Navbar'
+import Footer from '../../../utilities/footer/Footer'
+import SubNavbar from '../../../utilities/navbar/SubNavbar';
 
 import { BsArrowRight } from 'react-icons/bs'
 import attract from './images/Attract.jpeg'

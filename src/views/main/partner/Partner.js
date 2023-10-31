@@ -5,9 +5,9 @@ import { Card, Col, Row } from 'reactstrap'
 import Section8 from './components/section8/Section8'
 
 //  navbar
-import Footer from '../footer/Footer'
-import Navbar from '../navbar/Navbar'
-import SubNavbar from '../navbar/SubNavbar'
+import Footer from '../utilities/footer/Footer'
+import Navbar from '../utilities/navbar/Navbar'
+import SubNavbar from '../utilities/navbar/SubNavbar'
 
 // icons 
 import { AiOutlineSolution, AiTwotoneShop } from 'react-icons/ai'

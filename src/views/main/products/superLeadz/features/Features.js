@@ -1,7 +1,7 @@
 import React from 'react'
-import Footer from '../../footer/Footer'
-import Navbar from '../../navbar/Navbar'
-import SubNavbar from '../../navbar/SubNavbar'
+import Footer from '../../../utilities/footer/Footer'
+import Navbar from '../../../utilities/navbar/Navbar'
+import SubNavbar from '../../../utilities/navbar/SubNavbar'
 
 // bootstrap
 import { Col, Row } from 'reactstrap'

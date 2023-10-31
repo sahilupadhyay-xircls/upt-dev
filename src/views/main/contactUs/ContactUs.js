@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import Navbar from '../navbar/Navbar'
+import Navbar from '../utilities/navbar/Navbar'
 import { Col, Row } from 'reactstrap'
 import { BsRocketTakeoff } from 'react-icons/bs'
 import { FaMapLocationDot } from 'react-icons/fa6'
-import Footer from '../footer/Footer'
+import Footer from '../utilities/footer/Footer'
 
 export default function ContactUs() {
   const [Data, setData] = useState({

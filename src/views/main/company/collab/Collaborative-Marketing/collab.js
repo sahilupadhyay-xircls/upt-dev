@@ -13,8 +13,8 @@ import scissors from './Images/scissors.png';
 import affordable from './Images/affordable.png';
 import advanced from './Images/advanced-customer.png';
 import ethical from './Images/ethical-marketing.png';
-import Navbar from '../../navbar/Navbar'
-import Footer from '../Footer'
+import Navbar from '../../../utilities/navbar/Navbar'
+import Footer from '../utilities/footer'
 
 const CollaborativeMarketingPage = () => {
 

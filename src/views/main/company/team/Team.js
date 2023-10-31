@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../navbar/Navbar'
+import Navbar from '../../utilities/navbar/Navbar'
 
 // // bootstrap
 import { Col, Row } from 'reactstrap'
@@ -15,7 +15,7 @@ import uttarika from './img/uttarika.png'
 import harshita from './img/harshita.png'
 import astha from './img/astha.png'
 import anish from './img/anish.png'
-import Footer from '../footer/Footer'
+import Footer from '../../utilities/footer/Footer'
 
 
 

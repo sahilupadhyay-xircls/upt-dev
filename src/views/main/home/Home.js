@@ -1,6 +1,6 @@
 import React from 'react'
-import Footer from '../footer/Footer'
-import Navbar from '../navbar/Navbar'
+import Footer from '../utilities/footer/Footer'
+import Navbar from '../utilities/navbar/Navbar'
 // compomponents
 import CardLeft from '@src/views/main/components/CardLeft'
 

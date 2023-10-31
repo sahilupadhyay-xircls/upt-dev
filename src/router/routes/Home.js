@@ -2,10 +2,10 @@ import { lazy } from 'react'
 import Test from '../../test/Test'
 import Developer  from '@src/views/main/developer/Developer'
 import ContactUs from '@src/views/main/contactUs/ContactUs'
-import SuperLeadz from '../../views/main/superLeadz/home/SuperLeadz'
-const Vision = lazy(() => import('../../views/main/vision/Vision'))
-const Features = lazy(() => import('@src/views/main/superLeadz/features/Features'))
-const Team = lazy(() => import('@src/views/main/team/Team'))
+import SuperLeadz from '../../views/main/products/superLeadz/home/SuperLeadz'
+const Vision = lazy(() => import('../../views/main/company/vision/Vision'))
+const Features = lazy(() => import('@src/views/main/products/superLeadz/features/Features'))
+const Team = lazy(() => import('@src/views/main/company/team/Team'))
 const Partner = lazy(() => import('@src/views/main/partner/Partner'))
 const Home = lazy(() => import('@src/views/main/home/Home'))
 

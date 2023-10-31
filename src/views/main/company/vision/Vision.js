@@ -3,13 +3,12 @@ import MediaEmbed from "./MediaEmbed";
 import VideoThumbnail from "./img/video_thumbnail.png";
 import { valuesData, missionPtsData, WWBelieveData } from "./data";
 import './visionCss.css'
+import Navbar from "../../utilities/navbar/Navbar";
+import SubNavbar from "../../utilities/navbar/SubNavbar";
 
 const VisionPage = () => {
 
-  const wwbelieveDescStyle = {
-    letterSpacing: '0.01rem',
-    lineHeight: '1.7rem'
-  };
+
 
   const Values = (props) => {
     const { id, imgSrc, title, subTitle } = props;
@@ -40,33 +39,31 @@ const VisionPage = () => {
 
   const WWBelieve = ({ id, title, desc, desc2, desc3, imgSrc }) => {
     return (
-      <>
-        <div className="col-sm-12 col-12 text-start mt-5 d-flex justify-content-center align-items-center">
-          <div className="container">
-            <div className="row gy-2">
-              <div className="col-sm-2 col-12 d-flex text-center justify-content-center align-items-center">
-                <img style={{ width: '90px' }} className=" mt-3" src={imgSrc} />
-              </div>
-              <div className="col-sm-10 col-12">
-                <h1 className="mb-3 ">{title}</h1>
-                <h5 style={wwbelieveDescStyle} className=" mb-0">{desc}</h5>
-                {desc2 ? <h5 style={wwbelieveDescStyle} className="mt-1  mb-0 ">{desc2}</h5> : null}
-                {desc3 ? <h5 style={wwbelieveDescStyle} className="mt-1  mb-0">{desc3}</h5> : null}
-              </div>
+      <div className="col-sm-12 col-12 text-start mt-5 d-flex justify-content-center align-items-center">
+        <div className="container">
+          <div className="row gy-2">
+            <div className="col-sm-2 col-12 d-flex text-center justify-content-center align-items-center">
+              <img style={{ width: '90px' }} className=" mt-3" src={imgSrc} />
+            </div>
+            <div className="col-sm-10 col-12">
+              <h1 className="mb-3 ">{title}</h1>
+              <h5 className=" mb-0">{desc}</h5>
+              {desc2 ? <h5 className="mt-1  mb-0 ">{desc2}</h5> : null}
+              {desc3 ? <h5 className="mt-1  mb-0">{desc3}</h5> : null}
             </div>
           </div>
         </div>
-      </>
+      </div>
     );
   };
 
   return (
     <div>
-
+      <Navbar position={'notFixed'} />
+      <SubNavbar title="vision & mission" />
       {/* Our Vision & Mission */}
       <div className="d-flex flex-column justify-content-center mt200">
         <h1 className="display-1 text-center main-heading fw-bolder pb-3"
-          style={{ color: '#1a1a1a', lineHeight: '1em', }}
         >Our Vision & Mission</h1>
         <div className="justify-content-center row ">
           <div className="col-lg-9 col-md-10 col-10">
@@ -95,15 +92,22 @@ const VisionPage = () => {
         <div className="col-lg-9 col-md-10 col-10">
           <h1 className=" text-center display-3 fw-bolder pt-5 ">What We Believe</h1>
           <div className="row gy-5 mt-2">
-            {WWBelieveData.map((item) => (
-              <WWBelieve
-                key={item.id}
-                title={item.title}
-                imgSrc={item.imgSrc}
-                desc={item.desc}
-                desc2={item.desc2}
-                desc3={item.desc3}
-              />
+            {WWBelieveData.map((data) => (
+              <div className="col-sm-12 col-12 text-start mt-5 d-flex justify-content-center align-items-center">
+                <div className="container">
+                  <div className="row gy-2">
+                    <div className="col-sm-2 col-12 d-flex text-center justify-content-center align-items-center">
+                      <img style={{ width: '90px' }} className=" mt-3" src={data.imgSrc} />
+                    </div>
+                    <div className="col-sm-10 col-12">
+                      <h1 className="mb-3 ">{data.title}</h1>
+                      <h5 className=" mb-0">{data.desc}</h5>
+                      {data.desc2 ? <h5 className="mt-1  mb-0 ">{data.desc2}</h5> : null}
+                      {data.desc3 ? <h5 className="mt-1  mb-0">{data.desc3}</h5> : null}
+                    </div>
+                  </div>
+                </div>
+              </div>
             ))}
           </div>
         </div>

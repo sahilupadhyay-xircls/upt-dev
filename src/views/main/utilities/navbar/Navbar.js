@@ -15,7 +15,7 @@ import { TfiTarget } from "react-icons/tfi"
 import { TiFlashOutline } from "react-icons/ti"
 import { VscTarget } from "react-icons/vsc"
 import { Link } from 'react-router-dom'
-import "../mainCustome.scss"
+import "../../mainCustome.scss"
 import "./navbar.scss"
 
 const Navbar = ({ position }) => {
