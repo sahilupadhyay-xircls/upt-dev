@@ -1,0 +1,144 @@
+.faq-pag {
+    @mixin mobile {
+        @media (max-width: 512px) {
+            @content;
+        }
+    }
+
+    @mixin laptop {
+        @media (max-width: 912px) {
+            @content;
+        }
+    }
+
+    @mixin laptop-md {
+        @media (max-width: 770px) {
+            @content;
+        }
+    }
+    width: 100% !important;
+    margin:auto;
+    $bg: #000000;
+    $text: #7288a2;
+    $gray: #4d5974;
+    $lightgray: #e5e5e5;
+    $blue: #03b5d2;
+
+  @include mobile{
+    width: 95% !important;
+
+  }
+
+    .accordion {
+        .accordion-item {
+            border-bottom: 1px solid $lightgray;
+
+            button[aria-expanded='true'] {
+                // border-bottom: 1px solid $blue;
+            }
+        }
+
+        button {
+            position: relative;
+            display: block;
+            text-align: left;
+            width: 100%;
+            padding: 1em 0;
+            font-weight: 400;
+            border: none;
+            background: none;
+            outline: none;
+            .icon-minu {
+                display: none;
+            }
+            .icon-plu {
+                display: block;
+            }
+            &:hover,
+            &:focus {
+                cursor: pointer;
+                color: $blue !important;
+
+                &::after {
+                    cursor: pointer;
+                    color: $blue;
+                    border: 1px solid $blue;
+                }
+            }
+
+            .accordion-title {
+                padding: 1em 1.5em 1em 0;
+            }
+
+            .icon {
+                display: inline-block;
+                position: absolute;
+                top: 18px;
+                right: 0;
+                // width: 22px;
+                // height: 22px;
+                // border: 1px solid;
+                // border-radius: 22px;
+
+                // &::before {
+                //     display: block;
+                //     position: absolute;
+                //     content: '';
+                //     top: 9px;
+                //     left: 5px;
+                //     width: 10px;
+                //     height: 2px;
+                //     background: currentColor;
+                // }
+
+                // &::after {
+                //     display: block;
+                //     position: absolute;
+                //     content: '';
+                //     top: 5px;
+                //     left: 9px;
+                //     width: 2px;
+                //     height: 10px;
+                //     background: currentColor;
+                // }
+            }
+        }
+
+        button[aria-expanded='true'] {
+            color: $blue !important;
+            .icon-plu {
+                display: none;
+                
+            }
+            .icon-minu {
+                display: block;
+                *{
+                    color: #ffffff !important;
+                    opacity: 1 !important;
+
+                }
+            }
+            
+            // .icon {
+            //     &::after {
+            //         width: 0;
+            //     }
+            // }
+
+            +.accordion-content {
+                max-height: 500px;
+                transition: all 1s ease;
+                will-change: opacity, max-height;
+            }
+        }
+
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+                       transition: all 0.5s ease;
+
+            will-change: opacity, max-height;
+
+        }
+    }
+}
